@@ -1,0 +1,21 @@
+{
+  "name": "time-schema-formatter",
+  "version": "0.0.1",
+  "description": "time format tool",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "www"
+  },
+  "keywords": [
+    "time",
+    "transfer",
+    "time",
+    "format"
+  ],
+  "author": "btfrankenstein",
+  "license": "ISC"
+}
