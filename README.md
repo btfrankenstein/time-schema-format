@@ -1,6 +1,6 @@
 a tool for transferring timestamp to standard time format
 
-# useage
+# usage
 
 ```javascript
 import timeFormat from 'time-schema-formatter'
