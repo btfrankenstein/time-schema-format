@@ -1,6 +1,6 @@
 {
   "name": "time-schema-formatter",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "time format tool",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "www"
+    "url": "https://github.com/btfrankenstein/time-schema-format"
   },
   "keywords": [
     "time",
