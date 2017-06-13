@@ -8,21 +8,13 @@ function getTime(option) {
   const min = date.getMinutes() < 10 ? `0${date.getMinutes()}` : date.getMinutes();
   const sec = date.getSeconds() < 10 ? `0${date.getSeconds()}` : date.getSeconds();
 
-  let times;
-  switch (option.format) {
-    case 'detail':
-      times = `${year}.${month}.${day} ${hour}:${min}:${sec}`;
-      break;
-    case 'row':
-      times = `${year}${month}${day}`;
-      break;
-    case 'slash':
-      times = `${year}-${month}-${day}`;
-      break;
-    default:
-      times = option.time;
-      break;
-  }
+  let times = option.format;
+  times = times.replace('YYYY', year);
+  times = times.replace('MM', month);
+  times = times.replace('DD', day);
+  times = times.replace('hh', hour);
+  times = times.replace('mm', min);
+  times = times.replace('ss', sec);
 
   return times
 
